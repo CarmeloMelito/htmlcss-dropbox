@@ -10,7 +10,7 @@ header {
     display: flex;
     justify-content: space-between;
     margin-top: 30px;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .logo-dropbox {
@@ -36,6 +36,15 @@ header nav a {
     color: white;
     border: none;
     cursor: pointer;
+}
+
+.jumbo {
+    background-color: #b4d0e6;
+}
+
+.jumbo-img {
+    width: 800px;
+    height: 450px;
 }
 
 h1 {
