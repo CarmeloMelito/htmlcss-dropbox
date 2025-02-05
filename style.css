@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-size: 18px;
+
 }
 
 header {
@@ -10,6 +10,7 @@ header {
     display: flex;
     justify-content: space-between;
     margin-top: 30px;
+    font-size: 18px;
 }
 
 .logo-dropbox {
@@ -35,4 +36,8 @@ header nav a {
     color: white;
     border: none;
     cursor: pointer;
+}
+
+h1 {
+    font-size: 60px;
 }
