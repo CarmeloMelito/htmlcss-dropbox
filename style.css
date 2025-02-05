@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+
+header {
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.logo-dropbox {
+    margin-bottom: 25px;
+}
+
+.main-nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+header nav a {
+    margin: 40px;
+    text-decoration: none;
+    color: black;
+}
+
+.button {
+    padding: 10px;
+    margin-right: 20px;
+    background-color: #0061fe;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
