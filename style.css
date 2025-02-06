@@ -57,7 +57,6 @@ h1 {
 #jumbotron {
     background-color: #b4d0e6;
 
-
 }
 
 #jumbotron .jumbo-info {
@@ -87,4 +86,29 @@ h1 {
 
 #jumbotron i {
     font-size: 30px;
+}
+
+#business-plan {
+    margin-top: 140px;
+    margin-left: 150px;
+
+}
+
+h3 {
+    font-size: 40px;
+}
+
+.business {
+    display: flex;
+    margin-top: 60px;
+}
+
+.business-button {
+    padding: 10px;
+    border-radius: 50%;
+}
+
+#business-plan p {
+    margin-right: 40px;
+    align-items: center;
 }
