@@ -68,6 +68,7 @@ h1 {
 
 #jumbotron .jumboleft {
     width: 40%;
+
 }
 
 #jumbotron .jumboright {
@@ -77,4 +78,13 @@ h1 {
 .jumbo-container {
     position: relative;
     top: 110px;
+}
+
+#jumbotron a {
+    text-decoration: none;
+    color: black;
+}
+
+#jumbotron i {
+    font-size: 30px;
 }
