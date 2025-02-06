@@ -2,25 +2,33 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
+    font-family: "Open Sans", serif;
+    font-optical-sizing: auto;
 }
 
 header {
-    padding: 10px 20px;
+    padding: 25px;
     display: flex;
     justify-content: space-between;
-    margin-top: 30px;
     font-size: 20px;
+    box-shadow: 0 1px 3px 0;
+}
+
+img {
+    display: block;
+    width: 100%;
+
 }
 
 .logo-dropbox {
-    margin-bottom: 25px;
+    width: 8%;
 }
 
 .main-nav {
     display: flex;
     width: 100%;
     justify-content: space-between;
+    align-items: center;
 }
 
 header nav a {
@@ -31,22 +39,42 @@ header nav a {
 
 .button {
     padding: 10px;
-    margin-right: 20px;
     background-color: #0061fe;
     color: white;
     border: none;
     cursor: pointer;
 }
 
-.jumbo {
-    background-color: #b4d0e6;
-}
-
-.jumbo-img {
-    width: 800px;
-    height: 450px;
+.button:hover {
+    filter: brightness(1.4);
 }
 
 h1 {
-    font-size: 60px;
+    font-size: 50px;
+
+}
+
+#jumbotron {
+    background-color: #b4d0e6;
+
+
+}
+
+#jumbotron .jumbo-info {
+    display: flex;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+#jumbotron .jumboleft {
+    width: 40%;
+}
+
+#jumbotron .jumboright {
+    width: 60%;
+}
+
+.jumbo-container {
+    position: relative;
+    top: 110px;
 }
