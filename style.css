@@ -103,12 +103,66 @@ h3 {
     margin-top: 60px;
 }
 
-.business-button {
+.button-color {
     padding: 10px;
-    border-radius: 50%;
+    border-radius: 55%;
+    border: 6px solid #0061fe;
+}
+
+.gray {
+    padding: 10px;
+    border-radius: 55%;
 }
 
 #business-plan p {
-    margin-right: 40px;
+    margin-right: 50px;
     align-items: center;
+}
+
+.pricing-container {
+    display: flex;
+    margin-top: 60px;
+    max-width: 1200px;
+    width: 100%;
+    margin-left: 150px;
+}
+
+.user {
+    display: flex;
+
+    align-items: center;
+    margin-left: 50px;
+    border-bottom: 1px solid black;
+
+}
+
+.pricing-card {
+    background-color: white;
+    border: 1px solid white;
+    width: 30%;
+    padding: 20px;
+    box-shadow: 0 2px 4px black;
+    display: flex;
+    flex-direction: column;
+}
+
+.pricing-header {
+    margin-bottom: 20px;
+}
+
+.pricing-header h2 {
+    font-size: 24px;
+
+}
+
+.pricing-price {
+    font-size: 20px;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+
+.btn:hover {
+    background-color: #005bb5;
+    filter: brightness(1.4);
 }
